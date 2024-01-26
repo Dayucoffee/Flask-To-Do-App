@@ -77,4 +77,4 @@ def remove_task():
 
 #### Our main function which runs the Flask App
 if __name__ == '__main__':
-    app.run(debug=True, ALLOWED_HOSTS = ['*'])
+    app.run(host='0.0.0.0', port=5000, debug=True)
